@@ -37,8 +37,8 @@ function css( done ) {
         }))
         .pipe( sourcemaps.init() )
         .pipe( sass() )
-        // .pipe( postcss([ autoprefixer(), cssnano() ]) )
-        .pipe( postcss([ autoprefixer() ]) )
+        .pipe( postcss([ autoprefixer(), cssnano() ]) )
+        // .pipe( postcss([ autoprefixer() ]) )
         .pipe( sourcemaps.write('.'))
         .pipe( dest('build/css') )
 
