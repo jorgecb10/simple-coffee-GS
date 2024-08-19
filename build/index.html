@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Coffee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <header class="header">
+        <picture>
+            <source
+                srcset="img/bg-cafe.avif" 
+                type="image/avif">
+            <source
+                srcset="img/bg-cafe.webp" 
+                type="image/webp">
+            <source  
+                srcset="img/bg-cafe.jpg" 
+                type="image/jpeg">
+            <img class="imagen" loading="lazy" decoding="async" src="img/bg-cafe.jpg" alt="imagen">
+        </picture>
+    </header>
+
+    <main class="menu contenedor">
+        <div class="menu__encabezado text-center">
+            <h1 class="menu__heading">Our Collection</h1>
+            <p class="menu__texto">
+                Introducing our Coffee Collection, a selection of unique coffees from different roast types and origins, expertly roasted in small batches and shipped fresh weekly.
+            </p>
+
+            <div class="enlaces">
+                <a href="#" class="enlace-gris">All Products</a>
+                <a href="#" class="enlace-negro">Available Now</a>
+            </div>
+        </div>
+
+        <div class="productos seccion">
+            <div class="producto">
+                <div class="producto__imagen popular">
+                    <picture>
+                        <source 
+                            srcset="img/cappuccino.avif" 
+                            type="image/avif">
+                        <source
+                            srcset="img/cappuccino.webp" 
+                            type="image/webp">
+                        <source
+                            srcset="img/cappuccino.jpg" 
+                            type="image/jpeg">
+                        <img loading="lazy" decoding="async" src="img/cappuccino.jpg" alt="imagen">
+                    </picture>
+                </div>
+
+                <div class="producto__info">
+                    <p class="producto__nombre">
+                        Cappuccino <span> $5.20</span>
+                    </p>
+
+                    <div class="producto__disponible">
+                        <p class="producto__calificacion">
+                            4.7 <span>(65 votes)</span>
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="producto">
+                <div class="producto__imagen popular">
+                    <picture>
+                        <source 
+                            srcset="img/house-coffee.avif" 
+                            type="image/avif">
+                        <source
+                            srcset="img/house-coffee.webp" 
+                            type="image/webp">
+                        <source
+                            srcset="img/house-coffee.jpg" 
+                            type="image/jpeg">
+                        <img loading="lazy" decoding="async" src="img/house-coffee.jpg" alt="imagen">
+                    </picture>
+                </div>
+
+                <div class="producto__info">
+                    <p class="producto__nombre">
+                        House Coffee <span> $3.50</span>
+                    </p>
+
+                    <div class="producto__disponible">
+                        <p class="producto__calificacion">
+                            4.85 <span>(14 votes)</span>
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="producto">
+                <div class="producto__imagen">
+                    <picture>
+                        <source 
+                            srcset="img/expresso.avif" 
+                            type="image/avif">
+                        <source
+                            srcset="img/expresso.webp" 
+                            type="image/webp">
+                        <source
+                            srcset="img/expresso.jpg" 
+                            type="image/jpeg">
+                        <img loading="lazy" decoding="async" src="img/expresso.jpg" alt="imagen">
+                    </picture>
+                </div>
+
+                <div class="producto__info">
+                    <p class="producto__nombre">
+                        Expresso <span> $2.50</span>
+                    </p>
+
+                    <div class="producto__disponible">
+                        <p class="producto__calificacion">
+                            4.9 <span>(55 votes)</span>
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="producto">
+                <div class="producto__imagen">
+                    <picture>
+                        <source 
+                            srcset="img/coffee-latte.avif" 
+                            type="image/avif">
+                        <source
+                            srcset="img/coffee-latte.webp" 
+                            type="image/webp">
+                        <source
+                            srcset="img/coffee-latte.jpg" 
+                            type="image/jpeg">
+                        <img loading="lazy" decoding="async" src="img/coffee-latte.jpg" alt="imagen">
+                    </picture>
+                </div>
+
+                <div class="producto__info">
+                    <p class="producto__nombre">
+                        Coffee Latte <span> $4.50</span>
+                    </p>
+
+                    <div class="producto__disponible">
+                        <p class="producto__calificacion">
+                            5.0 <span>(23 votes)</span>
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="producto">
+                <div class="producto__imagen">
+                    <picture>
+                        <source 
+                            srcset="img/chocolate-coffee.avif" 
+                            type="image/avif">
+                        <source
+                            srcset="img/chocolate-coffee.webp" 
+                            type="image/webp">
+                        <source
+                            srcset="img/chocolate-coffee.jpg" 
+                            type="image/jpeg">
+                        <img loading="lazy" decoding="async" src="img/chocolate-coffee.jpg" alt="imagen">
+                    </picture>
+                </div>
+
+                <div class="producto__info">
+                    <p class="producto__nombre">
+                        Chocolate Coffee <span> $4.00</span>
+                    </p>
+
+                    <div class="producto__disponible">
+                        <p class="producto__calificacion producto__calificacion--so">
+                            4.65 <span>(122 votes)</span>
+                        </p>
+
+                        <p class="producto__sold-out">
+                            Sold Out
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="producto">
+                <div class="producto__imagen">
+                    <picture>
+                        <source 
+                            srcset="img/valentine-special.avif" 
+                            type="image/avif">
+                        <source
+                            srcset="img/valentine-special.webp" 
+                            type="image/webp">
+                        <source
+                            srcset="img/valentine-special.jpg" 
+                            type="image/jpeg">
+                        <img loading="lazy" decoding="async" src="img/valentine-special.jpg" alt="imagen">
+                    </picture>
+                </div>
+
+                <div class="producto__info">
+                    <p class="producto__nombre">
+                        Valentine Special <span> $5.50</span>
+                    </p>
+
+                    <div class="producto__disponible">
+                        <p class="producto__calificacion producto__calificacion--no">
+                            <span>No ratings</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/imgsupport.js"></script>
+</body>
+</html>
